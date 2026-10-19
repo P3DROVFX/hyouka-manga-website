@@ -45,3 +45,10 @@ roadmap-*.md
 # material de estudo pessoal
 estudos/
 roadmap-site-manga-nextjs.md
+
+# assistentes de IA (skills de estudo, regras locais)
+.claude/
+.gemini/
+.agents/
+CLAUDE.local.md
+GEMINI.md

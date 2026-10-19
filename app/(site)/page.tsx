@@ -1,5 +1,6 @@
 import { getPublishedChapters } from "@/src/features/chapters/queries";
 import { getManga } from "@/src/features/mangas/queries";
+import Link from "next/link";
 
 export default async function Home() {
   const [chapters, manga] = await Promise.all([
@@ -17,8 +18,10 @@ export default async function Home() {
 
       <ul>
         {chapters.map((ch) => (
-          <li key={ch.id}>
-            Capítulo {ch.number} {ch.title ? `- ${ch.title}` : ""}
+          <li key={ch.id} >
+            <Link href={`/chapters/${ch.id}`}>
+              Capítulo {ch.number} {ch.title ? `- ${ch.title}` : ""}
+            </Link>
           </li>
         ))}
       </ul>
