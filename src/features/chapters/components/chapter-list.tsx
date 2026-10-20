@@ -1,4 +1,5 @@
 import { ChapterListItem } from "./chapter-list-item";
+import { Chapter } from "../types";
 
 export function ChapterList({ chapters }: { chapters: Chapter[] }) {
     if (chapters.length === 0) {
