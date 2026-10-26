@@ -1,1 +1,68 @@
 @import "tailwindcss";
+@import "../src/styles/tokens.css";
+
+@custom-variant dark (&:where([data-theme="dark"], .dark, [data-theme="dark"] *));
+
+@theme inline {
+  --color-layer-0: var(--col-layer-0);
+  --color-layer-1: var(--col-layer-1);
+  --color-layer-1-hover: var(--col-layer-1-hover);
+  --color-layer-2: var(--col-layer-2);
+  --color-layer-2-hover: var(--col-layer-2-hover);
+  --color-layer-2-active: var(--col-layer-2-active);
+  --color-surface-high: var(--col-surface-high);
+  --color-surface-highest: var(--col-surface-highest);
+  --color-field-hover: var(--col-field-hover);
+
+  --color-primary: var(--col-primary);
+  --color-on-primary: var(--col-on-primary);
+  --color-primary-container: var(--col-primary-container);
+  --color-on-primary-container: var(--col-on-primary-container);
+
+  --color-secondary: var(--col-secondary);
+  --color-on-secondary: var(--col-on-secondary);
+  --color-secondary-container: var(--col-secondary-container);
+  --color-on-secondary-container: var(--col-on-secondary-container);
+
+  --color-tertiary: var(--col-tertiary);
+  --color-on-tertiary: var(--col-on-tertiary);
+  --color-tertiary-container: var(--col-tertiary-container);
+  --color-on-tertiary-container: var(--col-on-tertiary-container);
+
+  --color-error: var(--col-error);
+  --color-on-error: var(--col-on-error);
+  --color-error-container: var(--col-error-container);
+  --color-on-error-container: var(--col-on-error-container);
+
+  --color-on-surface: var(--col-on-surface);
+  --color-on-surface-variant: var(--col-on-surface-variant);
+  --color-subtext: var(--col-subtext);
+  --color-outline-dashed: var(--col-dashed-outline);
+
+  --radius-xs: var(--rounding-verysmall);
+  --radius-sm: var(--rounding-small);
+  --radius-normal: var(--rounding-normal);
+  --radius-lg: var(--rounding-large);
+  --radius-xl: var(--rounding-verylarge);
+  --radius-full: var(--rounding-full);
+
+  --font-main: var(--font-main);
+  --font-title: var(--font-title);
+  --font-editorial: var(--font-editorial);
+  --font-mono: var(--font-mono);
+}
+
+html, body {
+  background-color: var(--col-layer-0);
+  color: var(--col-on-surface);
+  font-family: var(--font-main);
+  min-height: 100vh;
+}
+
+
+html, body {
+  background-color: var(--col-layer-0);
+  color: var(--col-on-surface);
+  font-family: var(--font-main);
+  min-height: 100vh;
+}

@@ -1,0 +1,85 @@
+:root {
+  --col-layer-0: #101113;                        
+  --col-layer-1: #181A1D;      
+  --col-layer-1-hover: #202327;  
+  --col-layer-2: #23262B; 
+  --col-layer-2-hover: #2C3036;
+  --col-layer-2-active: #353A42;
+  --col-surface-high: #26292E;  
+  --col-surface-highest: #31353C;    
+  --col-field-hover: #3B4048;
+
+  --col-primary: #D8DDE6;
+  --col-on-primary: #14181F;
+  --col-primary-container: #333942;
+  --col-on-primary-container: #EEF2F8;
+
+  --col-secondary: #C3C7CF;
+  --col-on-secondary: #1D2026;
+  --col-secondary-container: #2B2F37;
+  --col-on-secondary-container: #E2E6EE;
+
+  --col-tertiary: #D6C9BC;
+  --col-on-tertiary: #261F18;
+  --col-tertiary-container: #3E352B;
+  --col-on-tertiary-container: #F4E7DA;
+
+  --col-error: #F2B8B5;
+  --col-on-error: #601410;
+  --col-error-container: #5C1F1D;
+  --col-on-error-container: #F9DEDC;
+
+  --col-on-surface: #ECEEF2;
+  --col-on-surface-variant: #A7ADB7;
+  --col-subtext: #8A909B;
+  --col-dashed-outline: rgba(216, 221, 230, 0.28);
+
+  --rounding-verysmall: 6px;
+  --rounding-small: 12px;
+  --rounding-normal: 17px;
+  --rounding-large: 23px;
+  --rounding-verylarge: 32px;
+  --rounding-full: 9999px;
+
+  --font-main: 'Roboto Flex', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-title: 'Plus Jakarta Sans', 'Space Grotesk', system-ui, sans-serif;
+  --font-editorial: 'Instrument Serif', Georgia, serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+[data-theme="light"], .light {
+  --col-layer-0: #ECEAE6;     
+  --col-layer-1: #F6F5F2;   
+  --col-layer-1-hover: #EAE8E3;
+  --col-layer-2: #E4E2DC;
+  --col-layer-2-hover: #D8D5CE;
+  --col-layer-2-active: #CCC8C0;
+  --col-surface-high: #E6E4DF;
+  --col-surface-highest: #DAD7D0;
+  --col-field-hover: #CFCBC2;
+
+  --col-primary: #252A32;
+  --col-on-primary: #F6F7F9;
+  --col-primary-container: #D5DBE5;
+  --col-on-primary-container: #151920;
+
+  --col-secondary: #484D56;
+  --col-on-secondary: #FFFFFF;
+  --col-secondary-container: #DCE0E8;
+  --col-on-secondary-container: #1D2128;
+
+  --col-tertiary: #5B4E41;
+  --col-on-tertiary: #FFFFFF;
+  --col-tertiary-container: #E8DDD0;
+  --col-on-tertiary-container: #261E16;
+
+  --col-error: #B3261E;
+  --col-on-error: #FFFFFF;
+  --col-error-container: #F9DEDC;
+  --col-on-error-container: #410E0B;
+
+  --col-on-surface: #17181B;
+  --col-on-surface-variant: #4E535C;
+  --col-subtext: #686E78;
+  --col-dashed-outline: rgba(37, 42, 50, 0.32);
+}
